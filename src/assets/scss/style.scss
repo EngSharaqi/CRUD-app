@@ -1,0 +1,208 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+input::placeholder {
+    color: #aaa !important;
+}
+
+.transparent {
+    color: #fff;
+    color: transparent !important;
+    overflow: hidden
+}
+.transparent::selection {
+    background-color: #fff;
+    color: #fff;
+    background-color: transparent;
+    color: transparent;
+}
+div#iconTableShadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    width: 90vw;
+    z-index: 9;
+    height: 90vw;
+}
+
+.chooseIcon {
+    position: absolute;
+    top: 75px;
+    left: 5%;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #eee;
+    width: 90%;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 99999;
+}
+
+.chooseIcon #icons-container .icon-card {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseIcon p.icon-name.text-truncate.mb-0.mt-1 { display: none }
+.chooseIcon div#icons-container { justify-content: center }
+
+.attributeMinusMinusP{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.attributeMinusMinus {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 23px;
+    font-weight: 900;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid red;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    max-width: 40px;
+    cursor: pointer
+}
+.attributeMinusMinusInput {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.attributePlusPlusBtn {
+    margin: 15px 0;
+    border: 1px solid #7367f0 !important;
+    padding: 10px;
+    border-radius: 5px;
+    color: #7367f0 !important;
+    cursor: pointer;
+    background-color: #fff !important;
+    text-align: center;
+    width: 100%;
+}
+
+.attributePlusPlusBtn:hover {
+    background-color: #7367f0 !important;
+    color: #fff !important;
+}
+
+table td, table th { white-space: nowrap }
+
+#attributeHolder {
+    display: flex;
+    width: 100%;
+    padding: 0 !important;
+    margin: 10px 15px;
+}
+
+#attributeHolder input {
+    width: 24%;
+    margin: 0 2px
+}
+
+// input tags
+.tagsInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #d8d6de;
+    background-color: #fff;
+    border-radius: 0.357rem;
+}
+
+.searchWrapper {
+    border: 0
+}
+
+.customMultiSelect {
+    padding: 5px !important
+}
+.tagsInput ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%
+}
+
+.tagsInput ul li {
+    margin: 0 10px 10px 0;
+    display: flex;
+    background-color: #0096fb;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.tagsInput ul li > span {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.tagsInput .avatar {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid
+}
+
+.tagsInput input {
+    border: 0;
+    padding: 0 10px;
+    height: 100%;
+    min-width: 30%;
+    outline: 0
+}
+
+p.addAttributeBtn {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important
+}
+
+
+#attributeHolder .generatedF, #attributeHolder input, #attributeHolder select {
+    // max-width: calc((100% - (10px)) / 3);
+    // min-width: calc((100% - (10px * 2)) / 3);
+    width: calc((100%  / 3) - 15px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d8d6de;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 0.357rem;
+}
+
+#attributeHolder .generatedF {
+    background-color: #d8d6de;
+}
+.ant-col.ant-col-16.ant-form-item-control.css-dev-only-do-not-override-k83k30 {
+    margin: 0 auto
+}
+@media(max-width: 767px){
+    .addAttributeBtn {
+        margin: 10px 0
+    }
+
+    #attributeHolder .generatedF, #attributeHolder input, #attributeHolder select {
+        width: calc((100%  / 2) - 12px);
+    }
+}

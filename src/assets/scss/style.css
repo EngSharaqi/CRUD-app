@@ -1,0 +1,16 @@
+p.mb-2.card-text, h2.fw-bold.mb-1.card-title { text-align: center }
+.ant-col.ant-col-16.ant-form-item-control.css-dev-only-do-not-override-acm2ia { max-width: 100% }
+
+.forgetPass {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width: 990px){
+    .ant-col.ant-col-16.ant-col-offset-8.ant-form-item-control.css-dev-only-do-not-override-acm2ia {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ant-form-item-control-input-content, .ant-form-item-control-input { width: 100%;}
+}

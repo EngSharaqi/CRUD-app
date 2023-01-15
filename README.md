@@ -1,2 +1,2 @@
-# CRUD-app
-CRUD web app using react.js
+# Dali-dashboard
+Dashboard for Dali project

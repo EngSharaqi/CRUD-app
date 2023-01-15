@@ -1,0 +1,1 @@
+import{T as t}from"./index.8f13e5f5.js";const e="https://api-ecommerce.snapysell.com",a=t.create({baseURL:`${e}/api`,headers:localStorage.getItem("token")?{"content-type":"multipart/form-data",Authorization:`Bearer ${localStorage.getItem("token")}`}:{}}),r=a;export{r as a};
