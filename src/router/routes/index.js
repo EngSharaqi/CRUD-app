@@ -23,7 +23,7 @@ const getLayout = {
 const TemplateTitle = "%s - Vuexy React Admin Template";
 
 // ** Default Route
-const DefaultRoute = "/home";
+const DefaultRoute = "/products/category";
 
 const SecondPage = lazy(() => import("../../views/SecondPage"));
 const Login = lazy(() => import("../../views/Login"));
@@ -45,10 +45,6 @@ const Routes = [
     path: "/",
     index: true,
     element: <Navigate replace to={DefaultRoute} />,
-  },
-  {
-    path: "/second-page",
-    element: <SecondPage />,
   },
   {
     path: "/login",
