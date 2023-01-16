@@ -5,7 +5,8 @@
 1. ```git clone https://github.com/EngSharaqi/CRUD-app.git```
 2. ```yarn install```
 3. ```npm install```
-4. Go to browser the visit this link [http://localhost:3000/](http://localhost:3000/)
+4. ```npm run start```
+5. Go to browser the visit this link [http://localhost:3000/](http://localhost:3000/)
 
 #### Visit the live demo from one of these:
 1. [Demo 1](https://crud-app-engsharaqi.vercel.app/login)
